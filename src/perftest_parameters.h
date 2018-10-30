@@ -142,7 +142,7 @@
 #define MAX_HOP_LIMIT	(255)
 #define MIN_IB_PORT   (1)
 #define MAX_IB_PORT   (3)
-#define MIN_ITER      (5)
+#define MIN_ITER      (1)
 #define MAX_ITER      (100000000)
 #define MIN_TX 	      (1)
 #define MAX_TX	      (15000)
