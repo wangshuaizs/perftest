@@ -3203,6 +3203,8 @@ int run_iter_bw(struct pingpong_context *ctx,struct perftest_parameters *user_pa
 	}
 
 	/* main loop for posting */
+	sleep(3);
+	printf("sleeped 3 seconds for concurrent connecting.\n");
 	while (totscnt < tot_iters  || totccnt < tot_iters ||
 		(user_param->test_type == DURATION && user_param->state != END_STATE) ) {
 
